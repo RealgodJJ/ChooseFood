@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UI_BaseTestDemo_Food</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="find_no_food">未找到相关菜品</string>
+    <string name="show_end">因为已到末尾，所以从头显示</string>
+    <string name="find_no_name">您未输入姓名！</string>
+    <string name="find_no_sex">您未选择性别！</string>
+    <string name="not_find_food">还没有点击寻找食物！</string>
+
+</resources>
