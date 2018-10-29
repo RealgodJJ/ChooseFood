@@ -151,7 +151,9 @@ public class MainActivity extends Activity {
     class SeekBarListener implements OnSeekBarChangeListener {
         @Override
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-
+            //价格变动影响符合条件的菜品
+            lists_get.clear();
+            imageView.setImageResource(R.drawable.ic_launcher);
         }
 
         @Override
@@ -170,12 +172,13 @@ public class MainActivity extends Activity {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.btn_find:
+                    lists_get.clear();
                     if (name.getText().toString().equals(""))
                         Toast.makeText(MainActivity.this, R.string.find_no_name, Toast.LENGTH_SHORT).show();
                     else if (!rbMan.isChecked() && !rbWoman.isChecked())
                         Toast.makeText(MainActivity.this, R.string.find_no_sex, Toast.LENGTH_SHORT).show();
                     else {
-                        lists_get.clear();
+                        person.setName(name.getText().toString());
                         checkData();
                     }
                     break;
@@ -196,7 +199,6 @@ public class MainActivity extends Activity {
                             Toast.makeText(MainActivity.this, R.string.not_find_food, Toast.LENGTH_SHORT).show();
                             toggleButton.setChecked(true);
                         } else {
-                            person.setName(name.getText().toString());
                             person.setFood(lists_get.get(count));
                             Toast.makeText(MainActivity.this, person.toString(), Toast.LENGTH_SHORT).show();
                         }
