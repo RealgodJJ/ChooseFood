@@ -1,0 +1,4 @@
+#Sun May 26 15:24:10 CST 2019
+base.0=F\:\\Android\\ChooseFood\\ChooseFood\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex
