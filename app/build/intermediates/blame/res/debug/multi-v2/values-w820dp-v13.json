@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android\\HomeworkThird\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "F:\\Android\\ChooseFood\\ChooseFood\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "E:\\Android\\HomeworkThird\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "F:\\Android\\ChooseFood\\ChooseFood\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
-                        "startOffsets": "305",
+                        "startOffsets": "312",
                         "endColumns": "57",
-                        "endOffsets": "358"
+                        "endOffsets": "365"
                     },
                     "to": {
                         "startLines": "2",

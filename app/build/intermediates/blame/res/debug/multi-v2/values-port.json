@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android\\HomeworkThird\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "F:\\Android\\ChooseFood\\ChooseFood\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\RealgodJJ\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\67ef86a2767040bbfd260afd2d80183f\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4ea095917abf008531296390d1a87725\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

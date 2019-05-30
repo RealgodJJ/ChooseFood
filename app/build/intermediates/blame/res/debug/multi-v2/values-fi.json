@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android\\HomeworkThird\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "F:\\Android\\ChooseFood\\ChooseFood\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\RealgodJJ\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\67ef86a2767040bbfd260afd2d80183f\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4ea095917abf008531296390d1a87725\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\RealgodJJ\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bd25c13f897adf2921957ff8c533ab16\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9b55f9f6305807bdc0738e87f53583d2\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

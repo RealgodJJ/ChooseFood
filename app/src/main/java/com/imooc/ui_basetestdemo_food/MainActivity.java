@@ -3,8 +3,8 @@ package com.imooc.ui_basetestdemo_food;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -27,7 +27,7 @@ import android.widget.ToggleButton;
  * 2、初始化数据
  * 3、为控件添加监听器
  */
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     private EditText name;
     private RadioGroup sex;
     private RadioButton rbMan, rbWoman;
@@ -74,6 +74,15 @@ public class MainActivity extends Activity {
         buttonListener = new ButtonListener();
         find.setOnClickListener(buttonListener);
         toggleButton.setOnClickListener(buttonListener);
+//        toggleButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+//                ToggleButton a = (ToggleButton)compoundButton;
+//                switch (a.getId()) {
+//
+//                }
+//            }
+//        });
     }
 
     private void initData() {
